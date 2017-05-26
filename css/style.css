@@ -20,10 +20,10 @@ nav ul{
 	padding:0;
 	border:solid red;
 	margin:auto;
-	background-color:#ffffff;
+	//background-color:#ffffff;
 }
 nav ul:after{
-	content: "";
+  content: "";
   display: table;
   clear: both;
 }
@@ -36,11 +36,11 @@ nav li {
 }
 
 nav {
-	width: 100%;
-	padding:15px 0;
+	margin: 0 8%;
 	font-family: 'Sanchez', serif;
 	font-size: 26px;
-	border:solid green;
+	//border:solid green;
+	background-color: #ffffff;
 }
 
 nav a{
@@ -54,12 +54,12 @@ nav a:hover{
 	color:#516051;
 }
 
-.header {
-	line-height: 0;
-	padding-top: 50px;
-	font-size: 70px;
+.header h1{
+	padding-top: 100px;
+	font-size: 100px;
 	color:#000000;
 	text-align: center;
+	margin-bottom: 0;
 /*	background-image: url(../images/pineapple.jpg);
 	background-attachment: fixed;
 	background-size:cover;
@@ -68,13 +68,13 @@ nav a:hover{
 	font-family: 'Shrikhand', cursive;
 }
 
-.subheader {
-	line-height: 65px;
+.subheader h1{
 	color:#000000;
 	font-size: 30px;
 	padding-bottom: 50px;
 	font-family: 'Shrikhand', cursive;
 	text-align: center;
+	margin-top: 0;
 }
 
 .text{
@@ -84,4 +84,35 @@ nav a:hover{
 	background-color: #ffffff;
 	margin:auto 8%;
 	padding:5%;
+}
+
+.centerText{
+	text-align: center;
+}
+
+label{
+	//display:block;
+}
+
+.smallText{
+	font-size: 16px;
+}
+
+.green{
+color:green;
+}
+
+.red{
+	color:red;
+}
+
+input {
+    width: 100%;
+    font-size: 15px;
+}
+
+textarea{
+	width:100%;
+	font-size: 15px;
+	height:300px;
 }
