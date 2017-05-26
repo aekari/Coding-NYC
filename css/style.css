@@ -90,10 +90,6 @@ nav a:hover{
 	text-align: center;
 }
 
-label{
-	//display:block;
-}
-
 .smallText{
 	font-size: 16px;
 }
@@ -106,9 +102,13 @@ color:green;
 	color:red;
 }
 
-input {
+input [type="text"]{
     width: 100%;
     font-size: 15px;
+}
+
+input [type="radio"]{
+width:15px;
 }
 
 textarea{
