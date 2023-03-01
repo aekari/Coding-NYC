@@ -19,7 +19,7 @@ nav ul{
 	width:80%;
 	padding:0;
 	margin:auto;
-	//background-color:#ffffff;
+	background-color:#ffffff;
 }
 nav ul:after{
   content: "";
