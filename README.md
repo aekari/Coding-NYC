@@ -1,5 +1,5 @@
 # Coding-NYC
-A simple 1 page site about learning to code in NYC.
+A site about learning to code in NYC.
 View a live version [here](https://aekari.github.io/Coding-NYC/).
 
 ![](https://i.imgur.com/REh52Vx.png)
